@@ -1,0 +1,958 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+span {
+  display: block;
+}
+/* ========================================== */
+.carve {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carve .carveleft {
+  height: 176.96px;
+  width: 111.61px;
+  border-radius: 0 0 75px 0;
+  background-color: #b2e3ff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.carve .carveright {
+  height: 700px;
+  width: 604.15px;
+  border-radius: 0 0 0 75px;
+  background-color: #b2e3ff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+nav .container {
+  display: flex;
+  padding-top: 17px;
+  align-items: center;
+}
+
+nav .container .logo a {
+  display: block;
+  margin-left: 134px;
+  z-index: 1;
+}
+
+nav .container .menu ul {
+  display: flex;
+  column-gap: 21px;
+}
+
+.active {
+  margin: 0 0 0 41px;
+}
+nav .container .btn .login {
+  margin-right: 45px;
+  text-transform: capitalize;
+  color: #23a6f0;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+nav .container .menu ul li a {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  z-index: 1;
+  transition: .4s;
+}
+
+nav .container .menu ul li:hover a {
+  font-size: 16px;
+  font-weight: 700;
+  color: #737373;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  z-index: 1;
+}
+
+
+nav .container .btn {
+  position: absolute;
+  margin-right: 280px;
+  right: 0;
+}
+nav .container .btn button {
+  padding: 15px 20px 15px 20px;
+  background-color: #23a6f0;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}
+
+nav .container .btn button i {
+  color: white;
+  visibility: hidden;
+  transition: .2s;
+}
+
+
+nav .container .btn button:hover i {
+  padding-right: 10px ;
+  color: white;
+  visibility: visible;
+}
+
+/* ================banner_part================= */
+.banner_part .banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 142px;
+  transform: translateY(-7%);
+}
+.banner_part .container {
+  padding-top: 181px;
+
+  padding-left: 70px;
+}
+.banner_part .container p {
+  margin: 0 0 30px 0;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #23a6f0;
+}
+
+.banner_part .container h1 {
+  margin: 0 0 30px 0;
+  font-weight: 700;
+  line-height: 80px;
+  font-size: 58px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  height: 160px;
+  width: 542px;
+}
+.banner_part .container h4 {
+  margin: 0 0 30px 0;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  height: 60px;
+  width: 517px;
+}
+
+.banner_part .container .info {
+  padding-bottom: 148px;
+}
+
+.banner_part .container .info .get {
+  padding: 15px 40px;
+  background-color: #23a6f0;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  transition: 0.4s;
+}
+
+.banner_part .container .info .get:hover {
+  background-color: #ffff;
+  color: #23a6f0;
+  border: 1px solid ;
+}
+.banner_part .container .info .learn {
+  padding: 15px 40px;
+  background-color: white;
+  color: #23a6f0;
+  border: 1px solid #23a6f0;
+  border-radius: 5px;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  margin-left: 10px;
+  transition: .4s;
+}
+
+.banner_part .container .info .learn:hover{
+  color: white;
+  background: #23a6f0;
+}
+/* =============================activity css=============== */
+
+.activity .container {
+  padding-top: 160px;
+
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.activity .container .text {
+  margin-bottom: 80px;
+}
+
+.activity .container .text h4 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+  color: #23a6f0;
+}
+
+.activity .container .text h1 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 10px 0 10px 0;
+}
+
+.activity .container .text p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  height: 40px;
+  width: 463px;
+
+  color: #737373;
+}
+
+.activity .container .parent {
+  display: flex;
+
+  column-gap: 30px;
+  padding-bottom: 160px;
+}
+
+.activity .container .child {
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+  background-color: white;
+  column-gap: 30px;
+}
+
+.activity .container .child .sec1 {
+  margin: 35px 0 35px 40px;
+}
+
+.activity .container .child .sec1 h2 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  margin: 20px 0 20px 0;
+}
+
+.activity .container .parent .child .line {
+  height: 2px;
+  width: 50px;
+  background-color: #e74040;
+  margin-bottom: 20px;
+}
+
+.activity .container .child .sec1 p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  height: 60px;
+  width: 132px;
+  color: #737373;
+  margin-right: 156px;
+}
+/* ==========================medicine css========================== */
+
+.medicine .container .text2 .line2 {
+  height: 7px;
+  width: 94px;
+  background-color: #e74040;
+}
+
+.medicine .container {
+  max-width: 1050px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.medicine .container .section02_banner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 160px 0;
+}
+
+.medicine .container .text2 {
+  padding: 248px 0;
+}
+
+.medicine .container .text2 h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 35px 0 35px 0;
+}
+
+.medicine .container .text2 h5 {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  width: 345px;
+  height: 60px;
+  color: #737373;
+  margin: 0 0 35px 0;
+}
+
+.medicine .container .text2 p a {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.medicine .container .text2 p a i {
+  padding-left: 10px;
+  width: 9px;
+  height: 16px;
+}
+
+/* ==========================Doctors css========================== */
+
+.doctors .container {
+  padding: 160px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.doctors .container .text3 h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.doctors .container .text3 h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 10px 0 10px 0;
+}
+
+.doctors .container .text3 p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.doctors .container .parent {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.doctors .container .parent .child .figure {
+  position: relative;
+  z-index: -1;
+}
+
+.doctors .container .parent .child .figure .icons {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  top: 236px;
+  left: 104px;
+}
+
+.doctors .container .parent .child .figure .icons .i {
+  padding: 10px 10px;
+  border-radius: 44.79px;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+.doctors .container .parent .child .figure::before {
+  content: "sale ";
+  position: absolute;
+  padding: 0 10px 0 10px;
+  background-color: #e74040;
+  color: white;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  box-shadow: 10px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  top: 20px;
+  left: 20px;
+}
+.doctors .container .parent .child .textarea {
+  margin: 25px 0 35px 25px;
+}
+
+.doctors .container .parent .child .textarea h5 {
+  display: inline-block;
+}
+
+.doctors .container .parent .child .textarea h5 a {
+  color: #23a6f0;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+
+.doctors .container .parent .child .textarea .star {
+  display: inline-block;
+}
+
+.doctors .container .parent .child .textarea .progress {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.doctors .container .parent .child .textarea .detal {
+  display: flex;
+}
+
+.doctors .container .parent .child .textarea .detal .rating {
+  display: inline-block;
+  display: flex;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #252b42;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.doctors .container .parent .child .textarea .rating .rate {
+  display: inline-block;
+  color: white;
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  padding-left: 5px;
+}
+
+.doctors .container .parent .child .textarea h2 {
+  color: #252b42;
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  margin: 10px 0 10px 0;
+}
+
+.doctors .container .parent .child .textarea .focus {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  width: 280px;
+}
+
+.doctors .container .parent .child .textarea .sales {
+  display: flex;
+  align-items: center;
+}
+
+.doctors .container .parent .child .textarea h6 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 10px 0 10px 10px;
+}
+
+.doctors .container .parent .child .textarea span {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  display: inline-block;
+  color: #bdbdbd;
+}
+
+.doctors .container .parent .child .textarea .green {
+  color: #40bb15;
+  margin-left: 5px;
+}
+
+.doctors .container .parent .child .textarea .progress .gap {
+  margin: 25px 0 25px 16px;
+}
+
+.doctors .container .parent .child .textarea .progress .r_gap {
+  margin-right: 16px;
+}
+
+.doctors .container .parent .child .textarea button {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 37px;
+  border: 1px solid #23a6f0;
+}
+
+/* ====================pricing css==================== */
+.pricing .container {
+  padding: 160px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.pricing .container .text4 h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.pricing .container .text4 h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 10px 0 10px 0;
+}
+
+.pricing .container .text4 p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.pricing .container .parent {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pricing .container .parent .child {
+  padding: 50px 40px;
+  box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+}
+.pricing .container .parent .child .update {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 15px;
+}
+.pricing .container .parent .child .not_update {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 15px;
+}
+.pricing .container .parent .child .no_bottom {
+  margin-bottom: 0;
+}
+
+.pricing .container .parent .child h3 {
+  color: #252b42;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+
+  margin: 35px 0;
+}
+
+.pricing .container .parent .child button {
+  color: white;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  background-color: #23a6f0;
+  margin: 35px 0;
+  border-radius: 5px;
+  padding: 15px 83.5px;
+  border: 0;
+}
+
+.pricing .container .parent .child span {
+  color: #8ec2f2;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+
+  margin-bottom: 35px;
+}
+
+.pricing .container .parent .child h5 {
+  color: #737373;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 200px;
+}
+
+.pricing .container .parent .child h4 {
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  margin-bottom: 35px;
+  width: 209px;
+}
+
+.pricing .container .parent .child .dollar {
+  color: #23a6f0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+}
+
+.pricing .container .parent .child .update h6 {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.pricing .container .parent .child .not_update h6 {
+  color: #252b42;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+}
+
+.pricing .container .parent .child .no_bottom h6 {
+  width: 168px;
+}
+
+.pricing .container .parent .new {
+  position: relative;
+}
+.pricing .container .parent .new .logo_new {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(30px, -30px);
+}
+
+/* ==================================client css============================= */
+.client .container {
+  padding: 160px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+.client .container .parent {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client .container .text5 h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.client .container .text5 h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  margin: 10px 0 10px 0;
+}
+
+.client .container .text5 p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.client .container .parent .child {
+  padding: 55px 70px 25px 70px;
+}
+
+.client .container .parent .child .stars {
+  margin: 0 14px;
+}
+
+.client .container .parent .child p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  width: 159px;
+  color: #737373;
+  text-align: center;
+  margin: 15px 0 30px 0;
+}
+
+.client .container .parent .child .name {
+  display: flex;
+
+  align-items: center;
+  column-gap: 5px;
+}
+
+.client .container .parent .child .name h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.client .container .parent .child .name h5 span {
+  font-weight: 400;
+  line-height: 16px;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+/* ========================joining css================== */
+.joining .container {
+  padding: 160px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.joining .container h5 {
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #23a6f0;
+}
+
+.joining .container h2 {
+  font-weight: 700;
+  line-height: 50px;
+  font-size: 40px;
+  letter-spacing: 0.2px;
+
+  color: #252b42;
+}
+
+.joining .container p {
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+
+  color: #737373;
+  text-align: center;
+}
+
+.joining .container form {
+  display: flex;
+
+  margin-top: 70px;
+}
+
+.joining .container form input {
+  border: 1px solid #e6e6e6;
+  padding: 15px 20px;
+  background: #f9f9f9;
+  width: 570px;
+  border-radius: 5px 0 0 5px;
+}
+
+.joining .container form input::placeholder {
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.joining .container form button {
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: white;
+  background-color: #23a6f0;
+  border: 1px solid #e6e6e6;
+  padding: 15px 22.5px;
+  border-radius: 0 5px 5px 0;
+}
+/* ===================footer css============================================= */
+footer .container {
+  padding: 50px 0 25px 0;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+
+footer .container .parent {
+  display: flex;
+
+  column-gap: 30px;
+}
+
+footer .container .parent .child {
+  padding-bottom: 40px;
+
+  width: 148px;
+}
+
+footer .container .parent .child:nth-child(even) {
+  width: 152px;
+  
+}
+
+
+footer .container .parent .child:nth-child(3) {
+  width: 152px;
+}
+
+
+footer .container .parent .child:nth-child(5) {
+  width: 321px;
+}
+
+footer .container .parent .child ul h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+
+  letter-spacing: 0.1px;
+  color: #252b42;
+
+  margin-bottom: 20px;
+}
+
+footer .container .parent .child ul li a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-bottom: 10px;
+
+  display: block;
+}
+
+footer .container .parent .child:nth-child(5) ul li a img {
+  margin-right: 10px;
+}
+
+footer .container .parent .new .center {
+  display: flex;
+  align-items: center;
+}
+
+footer .container .last {
+  display: flex;
+
+  column-gap: 20px;
+
+  padding-top: 25px;
+
+  align-items: center;
+}
+
+footer .container .last p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin-right: 480px;
+}
+
+footer .container .last a i {
+  color: #23a6f0;
+}
+/* ======================THE END============================= */
+
